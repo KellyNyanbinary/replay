@@ -58,7 +58,7 @@ namespace Assets.Scripts
                 cameraPanelButton.AddAfterSelf(
                     XElement.Parse(
                         $"<ContentButton name=\"RecordButton\" id=\"start-record-button\" class=\"view-button audio-btn-click\" tooltip=\"Record\" xmlns=\"{xNamespace}\">" +
-                        "    <Image sprite=\"ReplayTools/Sprites/RecordIcon\" />" +
+                        "    <Image sprite=\"Ui/Sprites/Common/IconButtonAperture\" />" +
                         "</ContentButton>"
                     )
                 );
